@@ -34,9 +34,10 @@
 "panel.menu.settings" = "设置";
 "panel.menu.quit" = "退出";
 "alert.accessibility.title" = "需要辅助权限";
-"alert.accessibility.message" = "请在系统设置的隐私与安全 > 辅助功能中为 MiniClipboard 开启权限，以使用全局粘贴和自动隐藏等功能。";
+"alert.accessibility.message" = "请在系统设置的隐私与安全 > 辅助功能中为 MiniClipboard 开启权限，以使用全局粘贴和自动隐藏等功能。若已开启仍提示，请移除旧条目，通过“+”重新添加当前应用，然后退出并重新打开应用。";
 "alert.accessibility.openSettings" = "打开设置";
 "alert.accessibility.later" = "稍后";
+"alert.cancel" = "取消";
 "window.settings.title" = "设置";
 
 "toast.copiedPlain" = "已复制为纯文本";

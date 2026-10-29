@@ -34,9 +34,10 @@
 "panel.menu.settings" = "Settings";
 "panel.menu.quit" = "Quit";
 "alert.accessibility.title" = "Accessibility permission required";
-"alert.accessibility.message" = "Please enable MiniClipboard in System Settings > Privacy & Security > Accessibility to use global paste and auto-hide features.";
+"alert.accessibility.message" = "Please enable MiniClipboard in System Settings > Privacy & Security > Accessibility to use global paste and auto-hide features. If permission is already enabled but this message persists, remove the old entry, use + to add the current app, then quit and reopen the app.";
 "alert.accessibility.openSettings" = "Open Settings";
 "alert.accessibility.later" = "Later";
+"alert.cancel" = "Cancel";
 "window.settings.title" = "Settings";
 
 "toast.copiedPlain" = "Copied as plain text";

@@ -566,6 +566,9 @@ final class AppController: ObservableObject {
         alert.addButton(withTitle: L("alert.cancel"))
         let resp = alert.runModal()
         if resp == .alertFirstButtonReturn {
+            // Ask macOS to prompt before opening the accessibility settings pane.
+            // The request is asynchronous; the next paste attempt checks trust again.
+            paste.requestAccessibilityPermission()
             if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility") {
                 NSWorkspace.shared.open(url)
             }
